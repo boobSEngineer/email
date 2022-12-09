@@ -1,0 +1,37 @@
+.settings_box {
+    flex-basis: 20%;
+    background-color: #f1f4f6;
+    min-width: 200px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+
+.block {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+
+}
+
+.block a {
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 10px 25px 5px 0;
+    color: #454545;
+}
+.block a:hover {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #e5e5e5;
+}
+
+@media screen and (max-width: 650px) {
+    .settings_box {
+        flex-basis: 10%;
+    }
+}

@@ -1,0 +1,18 @@
+.main {
+    position: sticky;
+    width: 100vw;
+    height: 98vh;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    padding: 0 20px 0 0;
+    min-width: 150px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+    /*border: 2px solid green;*/
+}
